@@ -5,8 +5,9 @@ import static solver.tests.utility.NonogramPageUtility.*;
 public class NonogramSolver {
     public static void main(String[] args) {
         init();
-        openNonogram(73850);
+        openNonogramAndDefineTableSize(73850);
         fillInCellsInColumn();
+        fillInCellsInRow();
         quit();
     }
 }
